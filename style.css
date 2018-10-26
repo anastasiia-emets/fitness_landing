@@ -1,12 +1,12 @@
 :root {
-	top-color: #ffffff;
-	top-family: 'Open Sans', sans-serif;
-	top-family1: 'Nunito', sans-serif;
-	top-family2: 'Montserrat', sans-serif;
-	top-family3: 'Montserrat', sans-serif;
-	top-left-align: left;
-	top-size: 14px;
-	top-weight: 400;
+	--top-color: #ffffff;
+	--top-family: 'Open Sans', sans-serif;
+	--top-family1: 'Nunito', sans-serif;
+	--top-family2: 'Montserrat', sans-serif;
+	--top-family3: 'Montserrat', sans-serif;
+	--top-left-align: left;
+	--top-size: 14px;
+	--top-weight: 400;
 }
 * {
 	box-sizing: border-box;
