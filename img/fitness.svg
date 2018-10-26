@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="216px" height="38px" viewBox="0 0 108 19">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 24px;
+  font-family: "AvenirNextRoundedStd-Demi";
+  fill: rgb(255,255,255);
+  text-transform: uppercase;
+}
+]]></style>
+<text transform="translate(-0.98,18.17)" class="style0"><tspan x="0.00 14.09 22.22 36.55 54.74 68.95 83.18" fill="rgb(255,255,255)">fitness</tspan></text></svg>
