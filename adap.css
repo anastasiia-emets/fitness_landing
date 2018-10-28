@@ -1,0 +1,166 @@
+@media (min-width: 1024px) and (max-width: 1300px) {
+	.wrapp {
+		flex-direction: column;
+	}
+	.wrapper, .wrapper1,.section,.content {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		padding: 0%;
+		width: 100%;
+	}
+	.block_footer, .footer-forms {
+		flex-wrap: wrap;
+	}
+	.contact, .footer-forms .button {
+		margin: 0 auto;
+		margin-top: 3%;
+	}
+	.fitness {
+		margin-left: -80%;
+		margin-top: 5%;
+		padding: 0;
+	}
+	.header-line,.surf,.mango,.berry {
+		display: none;
+	}
+	.about_life, .mango,.about,.berry, .gadget, .run,.about_fun, .about_yourself, .about_improve, .about2 {
+		height: auto;
+		width: 80%;
+	}
+	.about_fun, .about_life,.berry, .about_yourself, .about_improve, .about2 {
+		padding-bottom: 5%;
+	}
+	.line_sky {
+		display: none;
+	}
+	.header {
+		height: 100vh;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	.fitness {
+		margin-left: -80%;
+		padding: 0;
+	}
+	.about_us,.contact {
+		padding: 0;
+	}
+	.footer-forms .form {
+		margin-bottom: 20px;
+		margin-right: 10%;
+		margin-top: 20px;
+	}
+	.wrapp {
+		flex-direction: column;
+	}
+	.wrapper, .wrapper1,.section,.content {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		padding: 0%;
+		width: 100%;
+	}
+	.block_footer, .footer-forms {
+		flex-wrap: wrap;
+	}
+	.contact, .footer-forms .button {
+		margin: 0 auto;
+	}
+	.block6,.header-line,.about2, .mango, .text_on_pict, .surf, .berry {
+		display: none;
+	}
+	.about_life, .head-line,.about,.mango,.run,.gadget, .header-line,.berry, .about_fun, .about_yourself, .about_improve, .about2 {
+		align-content: center;
+		height: auto;
+		margin: 0;
+		width: 80%;
+	}
+	.about_fun, .about_life, .about_yourself, .about_improve, .about2,.gadget {
+		padding-bottom: 5%;
+	}
+	.line_sky {
+		display: none;
+	}
+	.i_can {
+		margin-bottom: -5%;
+	}
+	.header {
+		height: 100vh;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.wrapp {
+		flex-wrap: wrap;
+	}
+	.line_sky {
+		display: none;
+	}
+	.head_linki {
+		margin: auto;
+		margin-top: 50%;
+		width: 100%;
+	}
+	.header {
+		height: auto;
+	}
+	.head_linki .linki {
+		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.i_can {
+		margin-bottom: -45%;
+	}
+	.fitness {
+		margin: 0 auto;
+	}
+	.header-line,.fitness, .block6, .gadget, .surf, .berry, .run, .mango,.about2 {
+		display: none;
+	}
+	.wrapper, .wrapper1,.section,.content {
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+		justify-content: center;
+		padding: 0%;
+		width: 100%;
+	}
+	.block_footer, .footer-forms {
+		flex-wrap: wrap;
+	}
+	.about_us, .contact {
+		padding: 0;
+	}
+	.about {
+		align-content: center;
+		height: auto;
+		width: 90%;
+	}
+	.about_life, .about_fun, .about_yourself, .about_improve, .about2 {
+		height: auto;
+		width: 90%;
+	}
+	.footer {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.footer-forms .form {
+		margin-bottom: 20px;
+		margin-right: 100px;
+		margin-top: 20px;
+	}
+	.end {
+		height: auto;
+	}
+}
