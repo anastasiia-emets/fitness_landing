@@ -272,20 +272,46 @@
 	color: #83969f;
 	font-family: 'proxima-nova', sans-serif;
 	font-size: var(--top-size);
-	margin-left: 3px;
+	margin-left: 6px;
 	padding: 18px 109px 20px 22px;
+font-weight: 400;
+text-align: left;
+border-radius: 2px;
+background-color:  #ffffff;
+width: 201px;
+height: 49px;
 }
-.footer-forms .button {
-	background-color: #a2ca28;
+.form1{
 	border: 0;
 	border-radius: 3px;
+	color: #83969f;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: var(--top-size);
+	margin-left: 6px;
+	padding: 18px 109px 20px 22px;
+font-weight: 400;
+text-align: left;
+border-radius: 2px;
+background-color:  #ffffff;
+width: 340px;
+height: 49px;
+
+}
+.footer-forms .button {
+	border: 0;
+	border-radius: 3px;
+
 	color: #fff;
 	font-family: 'proxima-nova', sans-serif;
 	font-size: 15px;
 	height: 49px;
 	margin-left: 6px;
+	padding-left: 32px;
 	margin-right: 150px;
+	background-color:  #a2ca28;
 	width: 182px;
+	height: 49px;
+text-align: left;
 }
 .icons .img {
 	margin-left: 12px;
