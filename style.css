@@ -354,6 +354,8 @@
 	line-height: 24px;
 	text-align: var(--top-left-align);
 	transform: scaleX(1.0007);
+
+
 }
 .link {
 	color: white;
@@ -365,6 +367,13 @@
 }
 .training .paragraph, .communit .paragraph {
 	padding-bottom: 24px;
+	
+}
+.head_linki:last-child{
+	margin-right:0;
+}
+.yes strong{
+	color:  #fd634e;
 }
 .i_can {
 	bottom: 15%;
