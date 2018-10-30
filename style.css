@@ -8,6 +8,10 @@
 	--top-size: 14px;
 	--top-weight: 400;
 }
+body{
+
+
+}
 * {
 	box-sizing: border-box;
 }
@@ -458,10 +462,7 @@ text-align: left;
 	margin-top: -7px;
 	text-align: left;
 }
-.photo1 {
-	height: 41px;
-	width: 44px;
-}
+
 .big_class {
 	background-color: #a2ca28;
 }
