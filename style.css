@@ -630,7 +630,13 @@ opacity: 0.2;
 	height: 100%;
 	object-fit: cover;
 }
-
+.icons img:hover {
+    background-color: grey;
+    border-radius: 50px;
+    padding: 1px;
+    transition: 1s;
+}
+}
 .text_on_pict {
 	color: #f7614c;
 	font-family: var(--top-family);
