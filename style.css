@@ -9,9 +9,14 @@
 	--top-weight: 400;
 }
 
-* {
-	box-sizing: border-box;
+* {  
+	box-sizing:border-box;
 }
+body{
+	padding:0;
+	margin:0;
+}
+
 .line {
 	height: 125px;
 	overflow: hidden;
@@ -654,7 +659,9 @@ opacity: 0.2;
   bottom: -336px;
   display: flex;
   font-size: 12px;
-  right: -580px;
+flex-direction: row;
+justify-content: flex-end;
+margin-right:30px;
 }
 
 .date {
