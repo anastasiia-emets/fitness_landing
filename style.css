@@ -271,7 +271,7 @@ background:url(linkedin.png) center center  no-repeat, #171a8f;
   background: url(linkedin.png) center center  no-repeat,grey;
 }
 .header {
-	background: url(backg.jpg);
+	background: url(img/backg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
