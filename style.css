@@ -712,8 +712,8 @@ margin-right:30px;
 	width: 19px;
 }
 .about_life {
+	background: linear-gradient(to right, white 90%, rgb(226, 226, 226));
 	align-items: center;
-	background: white;
 	flex-direction: row;
 	padding-right: 42px;
 	text-align: var(--top-left-align);
