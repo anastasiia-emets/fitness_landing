@@ -604,6 +604,10 @@ height: 105%;
 	
 	grid-column-end: 4;
 	grid-column-start: 2;
+	background: url(img/girl.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;	
 }
 .gadget {
 	background: url(img/oclock.jpg);
@@ -636,18 +640,21 @@ opacity: 0.2;
     padding: 1px;
     transition: 1s;
 }
-}
+
 .text_on_pict {
 	color: #f7614c;
-	font-family: var(--top-family);
 	font-size: 12px;
 	font-weight: var(--top-weight);
 	line-height: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 .line_on_pic {
-
-	margin-bottom:45px;
-	margin-right: 41px;
+	position: relative;
+  bottom: -336px;
+  display: flex;
+  font-size: 12px;
+  right: -580px;
 }
 
 .date {
@@ -706,7 +713,9 @@ opacity: 0.2;
 	height: 31px;
   vertical-align: middle;
 	width: 19px;
-	margin-right: 5px;
+	position: relative;
+  top: -5px;
+  left: 4px;
 }
 .dropw {
 	height: 23px;
