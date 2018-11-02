@@ -239,39 +239,39 @@ margin-right:10px;
 }
 
 .button1{
-	background:url(img/face.png) center center  no-repeat, #2e3192;
+	background:url(face.png) center center  no-repeat, #2e3192;
 }
 .button2{
 
-background:url(img/twitter.png) center center  no-repeat, #00aeef;
+background:url(twitter.png) center center  no-repeat, #00aeef;
 
 }
 .button3{
 
-background:url(img/youtub.png) center center  no-repeat, #ed3123;
+background:url(youtub.png) center center  no-repeat, #ed3123;
 
 }
 .button4{
 
-background:url(img/linkedin.png) center center  no-repeat, #171a8f;
+background:url(linkedin.png) center center  no-repeat, #171a8f;
 
 }
 
 
 .button1:hover {
-  background: url(img/face.png) center center  no-repeat,grey;
+  background: url(face.png) center center  no-repeat,grey;
 }
 .button2:hover {
-  background: url(img/twitter.png) center center  no-repeat,grey;
+  background: url(twitter.png) center center  no-repeat,grey;
 }
 .button3:hover {
-  background: url(img/youtub.png) center center  no-repeat,grey;
+  background: url(youtub.png) center center  no-repeat,grey;
 }
 .button4:hover {
-  background: url(img/linkedin.png) center center  no-repeat,grey;
+  background: url(linkedin.png) center center  no-repeat,grey;
 }
 .header {
-	background: url(img/backg.jpg);
+	background: url(backg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -683,7 +683,7 @@ height: 100%;
 	position: absolute;
 
 opacity: 0.2;
-  top: 460px;
+  top: 510px;
   left: 0;
   border-right: 98vw solid red;
   border-top: 85px solid transparent;
