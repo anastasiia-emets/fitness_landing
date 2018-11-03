@@ -637,6 +637,7 @@ a:hover {
 	background-size: cover;
 	grid-column-end: 3;
 	grid-column-start: 1;
+	position: relative;
 }
 .header-line {
 	border-bottom: 25px solid red;
@@ -654,46 +655,29 @@ a:hover {
 	object-fit: cover;
 	width: 100%;
 }
-.icons img:hover {
-	background-color: grey;
-	border-radius: 50px;
-	padding: 1px;
-	transition: 1s;
-}
 b {
 	color: white;
 }
 .text_on_pict {
+	bottom: 0;
 	color: #f7614c;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	font-weight: var(--top-weight);
+	font-weight: 400;
 	line-height: 26px;
+	margin-bottom: 45px;
+	margin-right: 71px;
+	position: absolute;
+	right: 0;
 }
-.text_on_pict2 {
-	color: white;
+.gadget .text_on_pict {
+	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-	font-weight: var(--top-weight);
+	font-weight: 400;
 	line-height: 26px;
-}
-.line_on_pic {
-	bottom: -336px;
-	display: flex;
-	flex-direction: row;
-	font-size: 12px;
-	justify-content: flex-end;
-	margin-right: 30px;
-	position: relative;
-}
-.line_on_pic2 {
-	bottom: -336px;
-	display: flex;
-	flex-direction: row;
-	font-size: 12px;
-	justify-content: flex-start;
-	margin-left: 30px;
-	position: relative;
+	margin-right: 600px;
+	position: absolute;
 }
 .date {
 	color: var(--top-color);
@@ -744,12 +728,19 @@ b {
 	grid-column-start: 2;
 }
 .drop1 {
+	bottom: 0;
 	height: 31px;
-	left: 4px;
-	position: relative;
-	top: -5px;
+	left: 0;
+	margin-left: 100px;
+	position: absolute;
 	vertical-align: middle;
 	width: 19px;
+}
+.gadget .drop1 {
+	bottom: 0;
+	left: 0;
+	margin-left: 130px;
+	position: absolute;
 }
 .dropw {
 	height: 23px;
