@@ -698,6 +698,9 @@ opacity: 0.2;
     padding: 1px;
     transition: 1s;
 }
+b{
+	color:white;
+}
 
 .text_on_pict {
 	color: #f7614c;
@@ -707,6 +710,15 @@ opacity: 0.2;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 }
+.text_on_pict2{
+	color:white;
+	font-size: 12px;
+	font-weight: var(--top-weight);
+	line-height: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
 .line_on_pic {
 	position: relative;
   bottom: -336px;
