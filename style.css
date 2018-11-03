@@ -1,257 +1,792 @@
-<!DOCTYPE html>
-<html lang="en">
+:root {
+	--top-color: #ffffff;
+	--top-family: 'Open Sans', sans-serif;
+	--top-family1: 'Nunito', sans-serif;
+	--top-family2: 'Montserrat', sans-serif;
+	--top-family3: 'proxima-nova', sans-serif;
+	--top-left-align: left;
+	--top-size: 14px;
+	--top-weight: 400;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>fitness</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="adap.css">
+* {  
+	box-sizing:border-box;
+}
+body{
+	padding:0;
+	margin:0;
+}
+.icon_ar{
+	width: 11px;
+	height: 11px; 
+	margin-left: 10px;
+}
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
+.line {
+	height: 125px;
+	overflow: hidden;
+	position: relative;
+}
+.line:after {
+	background: red;
+	border-radius: 70%;
+	content: "";
+	display: block;
+	height: 200px;
+	left: -10%;
+	margin-top: -80px;
+	opacity: 0.3;
+	position: absolute;
+	top: 100%;
+	width: 500%;
+}
+ a:hover{
+	color:grey;
+}
+.block3, .block2,.block4, .block5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.triangle-bottomleft {
+	border-bottom: 100px solid red;
+	border-right: 100px solid transparent;
+	height: 0;
+	width: 0;
+}
+.block4 {
+	background-color: #fff;
+}
+.head_linki {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin-right: 69px;
+}
+.line1 {
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+.line1:after {
+	background: red;
+	border-radius: 70%;
+	content: "";
+	display: block;
+	height: 150px;
+	left: -80%;
+	margin-top: -10px;
+	opacity: 0.4;
+	position: absolute;
+	top: 100%;
+	width: 300%;
+}
+.header3 {
+	color: #a2ca28;
+	font-family: var(--top-family);
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-bottom: 15px;
+	margin-top:13px;
+	padding-left: 42px;
+	text-align: var(--top-left-align);
+}
+.header4 {
+	color: var(--top-color);
+	font-family: var(--top-family);
+	font-size: 35px;
+	margin-bottom: 15px;
+	margin-top:13px;
+	line-height: 30px;
+	padding-left: 42px;
+	text-align: var(--top-left-align);
+}
+
+.track {
+	color: #fd634e;
+	font-family: var(--top-family2);
+	font-size: var(--top-size);
+	font-weight: bold;
+	font-weight: 600;
+	line-height: 22px;
+	margin-top: 39px;
+	padding-left: 42px;
+	text-align: var(--top-left-align);
+}
+.summer {
+	color: var(--top-color);
+	font-family: var(--top-family);
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-left: 42px;
+	text-align: var(--top-left-align);
+}
+.icon_p {
+	height: 32px;
+	width: 32px;
+flex-direction: column;
+justify-content: flex-end;
+display: flex;
+position: relative;
+margin-left: 140px;
+}
+.about_life_2{
+	width: 100%;
+  display: flex;
+	flex-direction: row;
+
+}
+.icon_i {
+	height: 32px;
+	vertical-align: middle;
+	width: 32px;
+}
+.oneline {
+	display: flex;
+}
+.block6 {
+	background: url(img/man.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	margin-top: -1px;
+	max-width: 100%;
+	padding-top: 1px;
+}
+.mango {
+	grid-column-start: 4;
+	width: 100%;
+}
+.line5 {
+	align-items: center;
+	flex-direction: row;
+}
+.line6 {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.par2 {
+	color: var(--top-color);
+	font-family: var(--top-family);
+	font-size: 13px;
+	font-weight: var(--top-weight);
+	line-height: 21px;
+	margin-left: 42px;
+	text-align: start;
+	text-align: var(--top-left-align);
+}
+.par1 {
+	color: #656e74;
+	font-family: var(--top-family);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 26px;
+	margin-left: 42px;
+	margin-top: 25px;
+	text-align: var(--top-left-align);
+}
+.about_improve {
+	background-color: #a2ca28;
+	display: flex;
+	flex-direction: column;
+	padding-right: 42px;
+}
+.improve {
+	color: var(--top-color);
+	font-family: var(--top-family2);
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 22px;
+	margin-left: 42px;
+	margin-top: 39px;
+	text-align: var(--top-left-align);
+}
+.eating {
+	color: var(--top-color);
+	font-family: var(--top-family);
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-left: 42px;
+	text-align: var(--top-left-align);
+}
+.linki {
+	color: var(--top-color);
+	display: inline-block;
+	font-family: var(--top-family1);
+	font-size: 13px;
+	line-height: 24px;
+	margin-right: 30px;
+	text-align: right;
+	text-decoration: none;
+}
+.linki:hover {
+	color: #968d8d;
+}
+.green_l {
+	background-color: #a2ca28;
+	height: 3px;
+	margin-top: 1px;
+	width: 38px;
+}
+.button{
+	width: 52px;
+	height: 51px;
+  border-radius: 50%;
+  margin-top:20px;
+margin-right:10px;
+
+}
+
+.button1{
+	background:url(face.png) center center  no-repeat, #2e3192;
+}
+.button2{
+
+background:url(twitter.png) center center  no-repeat, #00aeef;
+
+}
+.button3{
+
+background:url(youtub.png) center center  no-repeat, #ed3123;
+
+}
+.button4{
+
+background:url(linkedin.png) center center  no-repeat, #171a8f;
+
+}
 
 
-</head>
+.button:hover {
+ opacity:0.5;
+}
 
-<body>
-  <div class="header">
-    <div class="wrapp">
-      <div class="fitness">
-        <img class="drop" alt="img" src="img/drop.png">
-        <div class="fit">
-          <span>FITNESS</span>
-          <img class="green_l" alt="img" src="img/green_l.svg">
-        </div>
-      </div>
-      <div class="head_linki">
-        <a href="javascript:void(0)" class="linki" target="_blank">ABOUT</a>
-        <a href="javascript:void(0)" class="linki" target="_blank">HOW IT WORKS</a>
-        <a href="javascript:void(0)" class="linki" target="_blank">SERVICES</a>
-        <a href="javascript:void(0)" class="linki" target="_blank">FAQ</a>
-        <a href="javascript:void(0)" class="linki" target="_blank">CONTACT</a>
-      </div>
-    </div>
-    <div class="i_can">
-      <div class="in_i_can"><span>FITNESS IN I CAN<strong>/</strong></span></div>
-      <div class="yes"><span>YES YOU CAN<strong>/</strong></span></div>
-    </div>
-    <div class="header-line"></div>
-  </div>
-  <!--  green block -->
-  <div class="big_class">
-    <div class="menu_block">
-      <div class="resources">
-        <img class="photo1" alt="photo1" src="img/shape1.png">
-        <p class="header1">Resources</p>
-        <div class="paragraph">
-          Easily manage your inspiration and<br> work in progress by dragging images into<br> projects and
-          sharable client groups. Easily<br> manage your inspiration and
+.header {
+	background: url(img/backg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	max-width: 100%;
+	padding: 40px 70px 150px 50px;
+	position: relative;
+}
+.surf {
+	background: url(img/surf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column-end: 4;
+	grid-column-start: 2;
+}
+.black {
+	height: 198px;
+	margin-bottom: 50px;
+	width: 100%;
+}
+.leaders {
+	color: var(--top-color);
+	font-family: var(--top-family1);
+	font-size: 45px;
+	font-weight: var(--top-weight);
+	line-height: 40px;
+	padding-top: 240px;
+	text-align: center;
+}
+.end {
+	background-color: #0d1119;
+	height: 769px;
+	padding-left: 100px;
+	padding-top: 67px;
+}
+.block_footer {
+	display: flex;
+	flex-direction: row;
+}
+.columns {
+	display: flex;
+}
+.button2, .button3, .button4 {
+	padding-left: 13px;
+}
+.about_us, .contact {
+	padding-left: 50px;
+}
+.icons {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+.footer-forms {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 50px;
+}
+.footer-forms .form {
+	border: 0;
+	border-radius: 3px;
+	color: #83969f;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: var(--top-size);
+	margin-left: 6px;
+	padding: 18px 109px 20px 22px;
+font-weight: 400;
+text-align: left;
+border-radius: 2px;
+background-color:  #ffffff;
+width: 201px;
+height: 49px;
+}
+.form1{
+	border: 0;
+	border-radius: 3px;
+	color: #83969f;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: var(--top-size);
+	margin-left: 6px;
+	padding: 18px 109px 20px 22px;
+font-weight: 400;
+text-align: left;
+border-radius: 2px;
+background-color:  #ffffff;
+width: 340px;
+height: 49px;
 
-        </div>
-        <a href="javascript:void(0)" class="link" target="_blank"> Explore more &#8594;</a>
-      </div>
-      <div class="training">
-        <img class="photo1" alt="photo1" src="img/shape2.png">
-        <p class="header1">Training & Funding</p>
-        <div class="paragraph">
-          Easily manage your inspiration and<br> work in progress by dragging images into<br> projects and
-          sharable client groups.
+}
+.footer-forms .button_f {
+	border: 0;
+	border-radius: 3px;
 
-        </div>
-        <a href="javascript:void(0)" class="link" target="_blank"> Browse training &#8594;</a>
-      </div>
-      <div class="connect">
-        <img class="photo1" alt="photo1" src="img/shape3.png">
-        <p class="header1">Connect</p>
-        <div class="paragraph">
-          Easily manage your inspiration and<br> work in progress by dragging images into<br> projects and
-          sharable client groups. Easily<br> manage your inspiration.
-
-        </div>
-        <a href="javascript:void(0)" class="link" target="_blank"> Connect now &#8594;</a>
-      </div>
-      <div class="communit">
-        <img class="photo1" alt="photo1" src="img/shape4.png">
-        <p class="header1">Communicate</p>
-        <div class="paragraph">
-          Easily manage your inspiration and<br> work in progress by dragging images into<br> projects and
-          sharable client groups. Easily
-
-        </div>
-        <a href="javascript:void(0)" class="link" target="_blank"> Start now &#8594;</a>
-      </div>
-    </div>
-  </div>
-  <div class="section">
-    <section class="wrapper1">
-      <div class="about">
-        <p class="all_about">IT'S All ABOUT</p>
-        <p class="header2">FITNESS FIRST</p>
-        <img class="dropw" alt="img" src="img/drop_w.svg">
-        <p class="par">Lorem ipsum dolor sit amet consectetur<br> adipiscing elit, sed do eisumod tempor<br>
-          incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud.<br>
-        </p>
-        <div class="read"><a href="javascript:void(0)" class="read" target="_blank"> Read me</a></div>
-      </div>
-      <div class="about2">
-        <div class="line_on_pic">
-          <p class="text_on_pict">Active Users <b style="color:white;">(34)</b>
-            <img class="drop1" alt="img" src="img/drop.png">
-          </p>
-        </div>
-      </div>
-      <div class="gadget">
-        <div class="line_on_pic2">
-          <p class="text_on_pict" style="color:white;">Products Used (658)<img class="drop1" alt="img" src="img/drop.png"></p>
-        </div>
-      </div>
-      <div class="about">
-        <p class="all_about">LOVE YOUR</p>
-        <p class="header2">YOUR BODY</p>
-        <img class="dropw" alt="img" src="img/drop_w.svg">
-        <p class="par">Lorem ipsum dolor sit amet consectetur<br> adipiscing elit, sed do eisumod tempor<br>
-          incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud.<br>
-        </p>
-        <div class="read"><a href="javascript:void(0)" class="read" target="_blank"> Read me</a></div>
-      </div>
-    </section>
-  </div>
-  <!--  pink block -->
-  <div class="content">
-    <section class="wrapper">
-      <div class="run">
-        <img class="run_peop" alt="img" src="img/run.jpg">
-      </div>
-      <div class="surf">
-        <div class="date">
-          <p>24TH AUGUST</p>
-        </div>
-        <div class="logotip">
-          <p class="log">HEALTH & FITNESS</p>
-          <img class="icon" alt="img" src="img/icon.svg">
-        </div>
-      </div>
-
-
-      <div class="about_life">
-
-
-        <div class="track">TRACK YOUR </div>
-        <div class="about_life_2">
-
-          <div class="header3">LIFESTYLE</div>
-
-          <div class="icon_p"><img alt="img" src="img/people.svg"></div>
-        </div>
-        <div class="par1">Lorem ipsum dolor sit amet consectetur<br> adipiscing elit, sed do eisumod tempor<br>
-          incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud.<br>
-
-        </div>
-      </div>
-
-
-      <div class="about_fun">
-        <p class="summer">SUMMER OF FUN</p>
-        <p class="par2">Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eisumod tempor
-          incididunt ut labore et <br>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.<br>
-        </p>
-      </div>
-    </section>
-  </div>
-  <div class="content">
-    <section class="wrapper">
-      <div class="berry">
-        <img class="berry" alt="img" src="img/berry.jpg">
-      </div>
-      <div>
-        <img class="mango" alt="img" src="img/mango.svg">
-      </div>
-
-
-      <div class="about_yourself">
-        <div class="track">TRACK YOUR</div>
-        <div class="about_life_2">
-          <div class="header3">GET INVOLVED IN YOURSELF</div>
-          <div class="icon_p"><img alt="img" src="img/fr1.svg"></div>
-        </div>
-        <div class="par1">Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eisumod tempor
-          incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud, ex ea
-          commodo consequat.<br>
-          Duis aute irure dolor in rerehenderit in voluptate velit esse clilumdolore eu guglat nulla pariatur
-        </div>
-      </div>
-
-      <div class="about_improve">
-        <div class="improve">IMPROVE YOUR</div>
-        <div class="about_life_2">
-          <div class="header4">EATING HABITS</div>
-          <div class="icon_p"><img alt="img" src="img/fr2.svg"></div>
-        </div>
-        <div class="par2">Lorem ipsum dolor sit amet consectetur<BR> adipiscing elit, sed do eisumod tempor<BR>
-          incididunt ut labore et dolore magna aliqua. <BR>Ut enim ad minim veniam, quis nostrud.<br>
-        </div>
-      </div>
-
-    </section>
-  </div>
-  <!--  man block -->
-  <div class="block6">
-
-    <div class="line_sky">
-      <div class="line_sky_1"></div>
-      <div class="line_sky_2"></div>
-
-      <div class="text">
-        <p class="leaders">We launch leaders with big ideas</p>
-        <p class="par3">Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do<br> eisumod tempor
-          incididunt ut labore et dolore magna aliqua. <br>
-        </p>
-      </div>
-    </div>
+	color: #fff;
+	font-family: 'proxima-nova', sans-serif;
+	font-size: 15px;
+	height: 49px;
+	margin-left: 6px;
+	padding-left: 32px;
+	margin-right: 150px;
+	background-color:  #a2ca28;
+	width: 182px;
+	height: 49px;
+text-align: left;
+}
+.icons .img {
+	margin-left: 12px;
+}
+.title {
+	color: var(--top-color);
+	font-family: var(--top-family1);
+	font-size: 15px;
+	font-weight: var(--top-weight);
+	line-height: 12px;
+	text-align: var(--top-left-align);
+}
+.par3 {
+	color: var(--top-color);
+	font-family: var(--top-family1);
+	font-size: 16px;
+	line-height: 23px;
+	padding-bottom: 370px;
+	text-align: center;
+}
+.fitness {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 52px;
+	padding-top: 39px;
+}
+.drop {
+	height: 47px;
+	width: 30px;
+}
+.par4 {
+	color: #8297a7;
+	font-family: var(--top-family1);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 24px;
+	text-align: var(--top-left-align);
+}
+.header1 {
+	color: var(--top-color);
+	font-family: var(--top-family);
+	font-size: 24px;
+	font-weight: var(--top-weight);
+	line-height: 54px;
+	text-align: var(--top-left-align);
+	transform: scaleY(1.002);
+}
+.fit {
+	align-items: flex-start;
+	color: var(--top-color);
+	display: flex;
+	flex-direction: column;
+	font-family: var(--top-family1);
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-left: 13px;
+	text-align: var(--top-left-align);
+}
+.paragraph {
+	color: white;
+	font-family: var(--top-family1);
+	font-size: 13.99px;
+	font-weight: var(--top-weight);
+	line-height: 24px;
+	text-align: var(--top-left-align);
+	transform: scaleX(1.0007);
 
 
-  </div>
-  <!--  main block -->
-  <div class="end">
-    <div class="block_footer">
-      <div class="resour">
-        <p class="title">Resources</p>
-        <p class="par4">Easily manage your inspiration and work in progress by<br> dragging images into
-          projects and sharable client groups<br>work-in-progress by dragging images into projects and<br> sharable
-          client
-          group
-        </p>
-      </div>
-      <div class="about_us">
-        <p class="title">About us</p>
-        <p class="par4">Easily manage your inspiration and work in progress by dragging<br> images into
-          projects and sharable client groups work-in-progress by<br> dragging images into projects and<br> sharable
-          client group
-        </p>
-      </div>
-      <div class="contact">
-        <p class="title">Stay in touch</p>
-        <div class="icons">
-          <div class="button button1"></div>
-          <div class="button button2"></div>
-          <div class="button button3"></div>
-          <div class="button button4"></div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <form action="GET" class="footer-forms">
-        <input type="text" placeholder="Your Name" name="name" class="form" required>
-        <input type="email" placeholder="Your Email" name="email" class="form1" required>
-        <button class="button_f">Join Newsletter<img class="icon_ar" src="arrow.png"></button>
-      </form>
-    </div>
-  </div>
-</body>
+}
+.link {
+	color: white;
+	text-align: var(--top-left-align);
+	text-decoration: none;
+  font-family: var(--font-family3);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
 
-</html>
+}
+.training .paragraph, .communit .paragraph {
+	padding-bottom: 24px;
+	
+}
+.head_linki:last-child{
+	margin-right:0;
+}
+.yes strong{
+	color:  #fd634e;
+}
+.i_can {
+	bottom: 15%;
+	left: 5%;
+	position: absolute;
+}
+.in_i_can strong {
+	color: #a2ca28;
+}
+.about {
+	align-items: center;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.all_about {
+	color: #fd634e;
+	font-family: var(--top-family2);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 22px;
+	margin-top: 50px;
+	text-align: center;
+}
+.in_i_can {
+	color: white;
+	font-family: var(--top-family1);
+	font-size: 39.97px;
+	text-align: var(--top-left-align);
+	transform: scaleY(1.0005);
+}
+.par {
+	color: #656e74;
+	font-family: var(--top-family);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 26px;
+	margin-top: 25px;
+	text-align: center;
+}
+.menu_block {
+	background-color: #a2ca28;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 119px;
+	padding-top: 111px;
+}
+.header2 {
+	color: #a2ca28;
+	font-family: var(--top-family);
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+
+  text-align: center;
+
+}
+
+.big_class {
+	background-color: #a2ca28;
+}
+.wrapper1 {
+	display: grid;
+	grid-template-columns: 400px auto 400px;
+	grid-template-rows: 400px 400px;
+	margin: 0 auto;
+	padding: 0 95px;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 400px auto 400px;
+	grid-template-rows: 350px 310px;
+	margin: 0 auto;
+	padding: 0 95px;
+}
+.content {
+	background-color: #fd634e;
+}
+.section {
+	background-color: #a2ca28;
+}
+.wrapp {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: -3%;
+}
+.berry {
+	grid-column-end: 3;
+	grid-column-start: 1;
+}
+.berry {
+	height: 100%;
+	width: 100%;
+}
+.run {
+	grid-column-start: 1;
+}
+.run_peop {
+	width: 100%;
+}
+.about_sport {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.yes {
+	color: white;
+	font-family: var(--top-family);
+	font-size: 15px;
+	padding-left: 200px;
+	text-align: var(--top-left-align);
+	transform: scaleY(1.0005);
+}
+.resources, .connect, .training {
+	margin-right: 29px;
+}
+.read {
+	color: #a2ca28;
+	font-family: var(--top-family);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 26px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.line_sky {
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+height: 100%;
+
+
+
+}
+.line_sky:after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    border: 80px solid transparent;
+		border-left: 250vh solid #000000;
+		margin-top: 2px;
+
+}
+
+.line_sky_1 {
+    position: absolute;
+    height: 100%;
+    display: flex;
+		width: 100%;
+
+}
+
+.line_sky_1:after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    z-index: 1;
+    border: 130px solid transparent;
+		border-right: 200vh solid black;
+	
+}
+
+.line_sky_2 {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.line_sky_2:after {
+     content: "";
+     display: block;
+     height: 100px;
+     width: 176%;
+     background: #fd634e;
+     position: absolute;
+     border-radius: 70%;
+     top: 102%;
+     left: -80%;
+     margin-top: -30px;
+		 z-index: 3;
+	
+ }
+.about2 {
+	
+	grid-column-end: 4;
+	grid-column-start: 2;
+	background: url(img/girl.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;	
+}
+.gadget {
+	background: url(img/oclock.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-column-end: 3;
+	grid-column-start: 1;
+}
+.header-line{
+	width: 100%;
+	content: '';
+	position: absolute;
+
+opacity: 0.2;
+  top: 510px;
+  left: 0;
+  border-right: 98vw solid red;
+  border-top: 85px solid transparent;
+  border-bottom: 30px solid red;
+}
+
+.img_girl{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.icons img:hover {
+    background-color: grey;
+    border-radius: 50px;
+    padding: 1px;
+    transition: 1s;
+}
+
+.text_on_pict {
+	color: #f7614c;
+	font-size: 12px;
+	font-weight: var(--top-weight);
+	line-height: 26px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.line_on_pic {
+	position: relative;
+  bottom: -336px;
+  display: flex;
+  font-size: 12px;
+flex-direction: row;
+justify-content: flex-end;
+margin-right:30px;
+}
+.line_on_pic2 {
+	position: relative;
+  bottom: -336px;
+  display: flex;
+  font-size: 12px;
+flex-direction: row;
+justify-content: flex-start;
+margin-left:30px;
+
+}
+
+.date {
+	color: var(--top-color);
+	font-family: var(--top-family3);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 22px;
+	padding-left: 59px;
+	padding-top: 50px;
+	text-align: var(--top-left-align);
+}
+
+.log {
+	color: var(--top-color);
+	font-family: var(--top-family3);
+	font-size: var(--top-size);
+	font-weight: var(--top-weight);
+	line-height: 22px;
+	text-align: right;
+}
+.logotip {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	margin-left: 550px;
+	margin-top: -50px;
+}
+.icon {
+	height: 19px;
+	margin-left: 10px;
+	width: 19px;
+}
+.about_life {
+	background: linear-gradient(to right, white 90%, rgb(226, 226, 226));
+	align-items: center;
+	flex-direction: row;
+	padding-right: 42px;
+	text-align: var(--top-left-align);
+	
+}
+.about_yourself {
+	background-color: #ffffff;
+	grid-column-end: 3;
+	grid-column-start: 1;
+	padding-right: 42px;
+}
+.about_fun {
+	background-color: #a2ca28;
+	grid-column-end: 4;
+	grid-column-start: 2;
+}
+.drop1 {
+	height: 31px;
+  vertical-align: middle;
+	width: 19px;
+	position: relative;
+  top: -5px;
+  left: 4px;
+}
+.dropw {
+	height: 23px;
+	margin-top: -20px;
+	width: 15px;
+}
