@@ -94,8 +94,8 @@ a:hover {
 .header4 {
 	color: var(--top-color);
 	font-family: 'Open Sans', sans-serif;
-	font-weight: lighter
-	font-size: 35px;
+	font-size: 30px;
+	font-weight: lighter;
 	line-height: 30px;
 	margin-bottom: 15px;
 	margin-top: 13px;
@@ -174,7 +174,7 @@ a:hover {
 	font-weight: var(--top-weight);
 	line-height: 21px;
 	margin-left: 42px;
-	text-align: start;
+	margin-right: 25px;
 	text-align: var(--top-left-align);
 }
 .par1 {
@@ -191,7 +191,7 @@ a:hover {
 	background-color: #a2ca28;
 	display: flex;
 	flex-direction: column;
-	padding-right: 42px;
+	padding-right: 50px;
 }
 .improve {
 	color: var(--top-color);
@@ -284,10 +284,14 @@ a:hover {
 	padding-top: 240px;
 	text-align: center;
 }
+.text {
+	font-size: 60px;
+}
 .end {
 	background-color: #0d1119;
 	height: 769px;
 	padding-left: 100px;
+	padding-right: 100px;
 	padding-top: 67px;
 }
 .block_footer {
@@ -299,9 +303,6 @@ a:hover {
 }
 .button2, .button3, .button4 {
 	padding-left: 13px;
-}
-.about_us, .contact {
-	padding-left: 50px;
 }
 .icons {
 	display: flex;
@@ -376,6 +377,13 @@ a:hover {
 	line-height: 23px;
 	padding-bottom: 370px;
 	text-align: center;
+}
+.block_footer .par4 {
+	margin-right: 120px;
+}
+.text .par3 {
+	margin: 0 auto;
+	width: 55%;
 }
 .fitness {
 	display: flex;
@@ -489,8 +497,26 @@ a:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 0 auto;
 	padding-bottom: 119px;
 	padding-top: 111px;
+	width: 1180px;
+}
+.about .par {
+	line-height: 2;
+	margin-top: 0;
+	padding: 0 13%;
+}
+.about_life .par1 {
+	line-height: 2;
+	margin-top: 0;
+	padding: 0 1%;
+}
+.about_yourself .par1 {
+	margin-right: 26px;
+}
+.about_fun p {
+	margin-right: 60px;
 }
 .header2 {
 	color: #a2ca28;
@@ -560,6 +586,15 @@ a:hover {
 }
 .resources, .connect, .training {
 	margin-right: 29px;
+}
+.resources, .connect, .training,.communit {
+	position: relative;
+	width: 23%;
+}
+.menu_block p {
+	font-size: 14px;
+	line-height: 2;
+	padding-bottom: 10%;
 }
 .read {
 	color: #a2ca28;
@@ -713,7 +748,7 @@ b {
 	align-items: center;
 	background: linear-gradient(to right, white 90%, rgb(226, 226, 226));
 	flex-direction: row;
-	padding-right: 42px;
+	padding-right: 50px;
 	text-align: var(--top-left-align);
 }
 .about_yourself {
