@@ -258,18 +258,10 @@ background:url(linkedin.png) center center  no-repeat, #171a8f;
 }
 
 
-.button1:hover {
-  background: url(face.png) center center  no-repeat,grey;
+.button:hover {
+ opacity:0.5;
 }
-.button2:hover {
-  background: url(twitter.png) center center  no-repeat,grey;
-}
-.button3:hover {
-  background: url(youtub.png) center center  no-repeat,grey;
-}
-.button4:hover {
-  background: url(linkedin.png) center center  no-repeat,grey;
-}
+
 .header {
 	background: url(img/backg.jpg);
 	background-position: center;
