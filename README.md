@@ -1,3 +1,6 @@
 # fitness_landing
-fitness
-https://anastasiia-emets.github.io/fitness_landing/index.html
+#task on Mate Academy)
+
+---
+[See here](https://anastasiia-emets.github.io/fitness_landing/index.html)
+
