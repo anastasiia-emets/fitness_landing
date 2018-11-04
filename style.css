@@ -442,7 +442,12 @@ a:hover {
 	line-height: 32px;
 	text-align: var(--top-left-align);
 	text-decoration: none;
+	position: absolute;
+margin-bottom:100px;
+
+
 }
+
 .training .paragraph, .communit .paragraph {
 	padding-bottom: 24px;
 }
@@ -591,11 +596,22 @@ a:hover {
 	position: relative;
 	width: 23%;
 }
+.header1{
+  padding-bottom: 23px;
+
+}
+
 .menu_block p {
 	font-size: 14px;
 	line-height: 2;
 	padding-bottom: 10%;
+
 }
+.connect .photo1{
+	margin-top:11px;
+}
+
+
 .read {
 	color: #a2ca28;
 	font-family: var(--top-family);
