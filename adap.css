@@ -9,10 +9,18 @@
 		height: auto;
 		justify-content: center;
 		padding: 0%;
-		width: 100%;
 	}
 	.block_footer, .footer-forms {
 		flex-wrap: wrap;
+	}
+	.photo1 {
+		margin-top: 150px;
+	}
+	.resources,.training,.connect,.communit {
+		width: 40%;
+	}
+	.communit {
+		margin-top: -60px;
 	}
 	.contact, .footer-forms .button {
 		margin: 0 auto;
@@ -23,10 +31,10 @@
 		margin-top: 5%;
 		padding: 0;
 	}
-	.header-line,.surf,.mango,.berry {
+	.header-line,.surf,.mango, .gadget,.icon_p,.icon_l,.berry,.about2 {
 		display: none;
 	}
-	.about_life, .mango,.about,.berry, .gadget, .run,.about_fun, .about_yourself, .about_improve, .about2 {
+	.about_life, .mango,.about,.berry, .run,.about_fun, .about_yourself, .about_improve {
 		height: auto;
 		width: 80%;
 	}
@@ -38,6 +46,9 @@
 	}
 	.header {
 		height: 100vh;
+	}
+	.end {
+		height: auto;
 	}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -56,6 +67,30 @@
 	.wrapp {
 		flex-direction: column;
 	}
+	.footer-forms {
+		justify-content: center;
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+	.form1,.form {
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	.button_f {
+		display: flex;
+		justify-content: center;
+	}
+	.menu_block {
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.resources,.training,.connect,.communit {
+		text-align: center;
+		width: 100%;
+	}
 	.wrapper, .wrapper1,.section,.content {
 		align-content: center;
 		display: flex;
@@ -71,7 +106,10 @@
 	.contact, .footer-forms .button {
 		margin: 0 auto;
 	}
-	.block6,.header-line,.about2, .mango, .text_on_pict, .surf, .berry {
+	.big_class {
+		flex-wrap: wrap;
+	}
+	.block6,.header-line,.about2, .mango, .text_on_pict,.about_improve, .icon_l,.icon_p,.icon_s,.surf, .gadget,.about2,.berry {
 		display: none;
 	}
 	.about_life, .head-line,.about,.mango,.run,.gadget, .header-line,.berry, .about_fun, .about_yourself, .about_improve, .about2 {
@@ -80,7 +118,7 @@
 		margin: 0;
 		width: 80%;
 	}
-	.about_fun, .about_life, .about_yourself, .about_improve, .about2,.gadget {
+	.about_fun, .about_life, .about_yourself, .about_improve, .icon_p,.icon_s,.about2,.gadget {
 		padding-bottom: 5%;
 	}
 	.line_sky {
@@ -91,6 +129,28 @@
 	}
 	.header {
 		height: 100vh;
+	}
+	.menu_block {
+		flex-wrap: wrap;
+	}
+	.resources,.training,.communit,.connect {
+		margin-bottom: 50px;
+		margin-left: 200px;
+		text-align: left;
+		width: 80%;
+	}
+	.paragraph {
+		margin-top: -40px;
+		width: 60%;
+	}
+	.footer .form1 {
+		margin-top: 20px;
+	}
+	.end {
+		height: auto;
+	}
+	.par4 {
+		width: 80%;
 	}
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -105,8 +165,32 @@
 		margin-top: 50%;
 		width: 100%;
 	}
+	.par4 {
+		width: 80%;
+	}
+	.i_can {
+		display: none;
+	}
+	.menu_block {
+		flex-wrap: wrap;
+	}
+	.resources,.training,.communit,.connect {
+		margin-bottom: 50px;
+		margin-left: 200px;
+		text-align: left;
+		width: 80%;
+	}
+	.paragraph {
+		margin-top: -40px;
+		width: 60%;
+	}
+	.fitness {
+		padding-left: 0;
+		padding-top: 10px;
+	}
 	.header {
 		height: auto;
+		width: 100%;
 	}
 	.head_linki .linki {
 		display: block;
@@ -116,13 +200,17 @@
 		margin: 0 auto;
 		width: 100%;
 	}
-	.i_can {
-		margin-bottom: -45%;
+	.menu_block {
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
 	}
 	.fitness {
 		margin: 0 auto;
 	}
-	.header-line,.fitness, .block6, .gadget, .surf, .berry, .run, .mango,.about2 {
+	.header-line,.block6, .gadget, .surf, .berry, .run, .mango,.about2,.about_improve, .icon_p,.icon_s {
 		display: none;
 	}
 	.wrapper, .wrapper1,.section,.content {
@@ -136,6 +224,7 @@
 	}
 	.block_footer, .footer-forms {
 		flex-wrap: wrap;
+		width: 100%;
 	}
 	.about_us, .contact {
 		padding: 0;
@@ -149,16 +238,18 @@
 		height: auto;
 		width: 90%;
 	}
-	.footer {
+	.footer-forms {
+		justify-content: center;
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+	.form1,.form {
+		margin-bottom: 5%;
+		margin-top: 5%;
+	}
+	.button_f {
 		display: flex;
 		justify-content: center;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.footer-forms .form {
-		margin-bottom: 20px;
-		margin-right: 100px;
-		margin-top: 20px;
 	}
 	.end {
 		height: auto;
