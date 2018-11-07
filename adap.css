@@ -1,44 +1,83 @@
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
 	.wrapp {
 		flex-direction: column;
 	}
-	.wrapper, .wrapper1,.section,.content {
+
+	.wrapper, 
+	.wrapper1,
+	.section,
+	.content {
 		align-content: center;
 		display: flex;
 		flex-wrap: wrap;
 		height: auto;
 		justify-content: center;
 		padding: 0%;
+	
 	}
-	.block_footer, .footer-forms {
-		flex-wrap: wrap;
-	}
-	.photo1 {
-		margin-top: 150px;
-	}
-	.resources,.training,.connect,.communit {
+
+	.resources,
+	.training,
+	.connect,
+	.communit {
 		width: 40%;
 	}
 	.communit {
-		margin-top: -60px;
+		margin-top: 10%;
 	}
-	.contact, .footer-forms .button {
+	.connect {
+		margin-top: 10%;
+	}
+	.contact, 
+	.footer-forms .button {
 		margin: 0 auto;
 		margin-top: 3%;
+	}
+	.footer-forms {
+		margin:0;
+		padding-bottom: 20px;
+		padding-top:20px;
 	}
 	.fitness {
 		margin-left: -80%;
 		margin-top: 5%;
 		padding: 0;
 	}
-	.header-line,.surf,.mango, .gadget,.icon_p,.icon_l,.berry,.about2 {
+  .text_on_pict {
+	  display: none;
+  }
+	.surf {
 		display: none;
 	}
-	.about_life, .mango,.about,.berry, .run,.about_fun, .about_yourself, .about_improve {
+	.mango {
+		display: none;
+	}
+
+	.icon_l {
+		display: none;
+	}
+	
+	.berry {
+		display: none;
+	}
+	.about2 {
+		display: none;
+	}
+	.about_life,
+	.about,
+	.run,
+	.about_fun,
+	.about_yourself,
+	.about_improve,.menu_block {
 		height: auto;
 		width: 80%;
 	}
-	.about_fun, .about_life,.berry, .about_yourself, .about_improve, .about2 {
+	.about_fun, 
+	.about_life,
+	.berry, 
+	.about_yourself, 
+	.about_improve, 
+	.about2 {
 		padding-bottom: 5%;
 	}
 	.line_sky {
@@ -56,42 +95,43 @@
 		margin-left: -80%;
 		padding: 0;
 	}
-	.about_us,.contact {
-		padding: 0;
-	}
-	.footer-forms .form {
-		margin-bottom: 20px;
-		margin-right: 10%;
-		margin-top: 20px;
-	}
+
+	.footer {
+		margin-top: 5%;
+		justify-content: center;	
+}
+.tittle {
+	  width: 50%;
+   	margin: 0 auto;
+  	margin-top: 5%;
+}
+.footer-forms {
+  	width: 80%;
+  	margin-left: 0;
+}
+.button_f {
+	  margin-top:5%;
+}
 	.wrapp {
 		flex-direction: column;
 	}
-	.footer-forms {
-		justify-content: center;
-		padding-bottom: 5%;
-		padding-top: 5%;
-	}
-	.form1,.form {
-		margin-bottom: 5%;
-		margin-top: 5%;
-	}
-	.button_f {
-		display: flex;
-		justify-content: center;
-	}
+
 	.menu_block {
-		align-items: center;
-		flex-direction: column;
+  	width:100%;
 		flex-wrap: wrap;
-		justify-content: center;
-		width: 100%;
 	}
-	.resources,.training,.connect,.communit {
-		text-align: center;
-		width: 100%;
-	}
-	.wrapper, .wrapper1,.section,.content {
+	.resources,
+	.training,
+	.connect,
+	.communit {
+		margin-bottom: 50px;
+		width: 40%;
+
+	} 
+	.wrapper, 
+	.wrapper1,
+	.section,
+	.content {
 		align-content: center;
 		display: flex;
 		flex-wrap: wrap;
@@ -100,48 +140,94 @@
 		padding: 0%;
 		width: 100%;
 	}
-	.block_footer, .footer-forms {
+	.end {
+		width: 100%;
+	}
+	.block_footer, 
+	.footer-forms {
 		flex-wrap: wrap;
 	}
-	.contact, .footer-forms .button {
-		margin: 0 auto;
-	}
+
 	.big_class {
 		flex-wrap: wrap;
 	}
-	.block6,.header-line,.about2, .mango, .text_on_pict,.about_improve, .icon_l,.icon_p,.icon_s,.surf, .gadget,.about2,.berry {
+	
+
+  .about_improve {
+	 display: none;
+  }
+
+	.surf {
 		display: none;
 	}
-	.about_life, .head-line,.about,.mango,.run,.gadget, .header-line,.berry, .about_fun, .about_yourself, .about_improve, .about2 {
+	.mango {
+		display: none;
+	}
+	
+	.icon_l {
+		display: none;
+	}
+	.berry {
+		display: none;
+	}
+	.about2 {
+		display: none;
+	}
+	.gadget {
+		display: none;
+	}
+	.about_life, 
+	.head-line,
+	.about,
+	.run, 
+	.about_fun, 
+	.about_yourself {
 		align-content: center;
 		height: auto;
 		margin: 0;
 		width: 80%;
+		height:auto;
 	}
-	.about_fun, .about_life, .about_yourself, .about_improve, .icon_p,.icon_s,.about2,.gadget {
+	.about_fun,
+	.about_life {
 		padding-bottom: 5%;
 	}
-	.line_sky {
-		display: none;
-	}
+
 	.i_can {
 		margin-bottom: -5%;
 	}
 	.header {
 		height: 100vh;
 	}
-	.menu_block {
-		flex-wrap: wrap;
-	}
-	.resources,.training,.communit,.connect {
-		margin-bottom: 50px;
-		margin-left: 200px;
-		text-align: left;
+
+	.resources,
+	.training,
+	.communit,
+	.connect {
 		width: 80%;
+		text-align: center;
 	}
+	.photo1 {
+		margin: 0 auto;
+	}
+
+	.link {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 5%;
+  }
 	.paragraph {
-		margin-top: -40px;
-		width: 60%;
+
+		text-align: center;
+
+	}
+	.header1 {
+		text-align: center;
 	}
 	.footer .form1 {
 		margin-top: 20px;
@@ -157,9 +243,7 @@
 	.wrapp {
 		flex-wrap: wrap;
 	}
-	.line_sky {
-		display: none;
-	}
+
 	.head_linki {
 		margin: auto;
 		margin-top: 50%;
@@ -173,16 +257,39 @@
 	}
 	.menu_block {
 		flex-wrap: wrap;
+		width: 100%;
 	}
-	.resources,.training,.communit,.connect {
-		margin-bottom: 50px;
-		margin-left: 200px;
-		text-align: left;
-		width: 80%;
+	.resources,
+	.training,
+	.communit,
+	.connect {
+		width: 100%;
+		margin-bottom: 10%;
+		text-align: center;
 	}
 	.paragraph {
-		margin-top: -40px;
-		width: 60%;
+    padding:0 50px 0 50px;
+	  padding-bottom: 0;
+	  width: 100%;
+	  text-align: center;
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
+	}
+	.photo1 {
+		margin: 0 auto;
+	}
+
+	.header1 {
+		text-align: center;
+
+	}
+	.link {
+	
+		display: block;
+		position: static;
+		margin: 0 auto;
+		text-align: center;
 	}
 	.fitness {
 		padding-left: 0;
@@ -200,20 +307,28 @@
 		margin: 0 auto;
 		width: 100%;
 	}
-	.menu_block {
-		align-items: center;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		width: 100%;
-	}
+	
+	
 	.fitness {
 		margin: 0 auto;
 	}
-	.header-line,.block6, .gadget, .surf, .berry, .run, .mango,.about2,.about_improve, .icon_p,.icon_s {
+
+	.block6, 
+	.gadget, 
+	.surf, 
+	.berry, 
+	.run, 
+	.mango,
+	.about2,
+	.about_improve, 
+	.icon_p,
+	.icon_s {
 		display: none;
 	}
-	.wrapper, .wrapper1,.section,.content {
+	.wrapper, 
+	.wrapper1,
+	.section,
+	.content {
 		align-content: center;
 		display: flex;
 		flex-wrap: wrap;
@@ -222,11 +337,13 @@
 		padding: 0%;
 		width: 100%;
 	}
-	.block_footer, .footer-forms {
+	.block_footer,
+	 .footer-forms {
 		flex-wrap: wrap;
 		width: 100%;
 	}
-	.about_us, .contact {
+	.about_us, 
+	.contact {
 		padding: 0;
 	}
 	.about {
@@ -234,7 +351,9 @@
 		height: auto;
 		width: 90%;
 	}
-	.about_life, .about_fun, .about_yourself, .about_improve, .about2 {
+	.about_life, 
+	.about_fun, 
+	.about_yourself {
 		height: auto;
 		width: 90%;
 	}
@@ -242,8 +361,10 @@
 		justify-content: center;
 		padding-bottom: 5%;
 		padding-top: 5%;
+		margin:0;
 	}
-	.form1,.form {
+	.form1,
+	.form {
 		margin-bottom: 5%;
 		margin-top: 5%;
 	}
@@ -253,5 +374,6 @@
 	}
 	.end {
 		height: auto;
+		width: 100%;
 	}
 }
