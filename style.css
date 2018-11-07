@@ -552,6 +552,7 @@ margin-bottom:100px;
 }
 .big_class {
 	background-color: #a2ca28;
+	flex-wrap: wrap;
 }
 .wrapper1 {
 	display: grid;
@@ -586,6 +587,7 @@ margin-bottom:100px;
 .berry {
 	height: 100%;
 	width: 100%;
+
 }
 .run {
 	grid-column-start: 1;
@@ -764,6 +766,9 @@ b {
 	font-weight: var(--top-weight);
 	line-height: 22px;
 	text-align: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 .logotip {
 	align-items: center;
