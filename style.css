@@ -259,16 +259,16 @@ opacity:0.5;
 	width: 52px;
 }
 .button1 {
-	background: url(face.png) center center no-repeat, #2e3192;
+	background: url(img/face.png) center center no-repeat, #2e3192;
 }
 .button2 {
-	background: url(twitter.png) center center no-repeat, #00aeef;
+	background: url(img/twitter.png) center center no-repeat, #00aeef;
 }
 .button3 {
-	background: url(youtub.png) center center no-repeat, #ed3123;
+	background: url(img/youtub.png) center center no-repeat, #ed3123;
 }
 .button4 {
-	background: url(linkedin.png) center center no-repeat, #171a8f;
+	background: url(img/linkedin.png) center center no-repeat, #171a8f;
 }
 .button:hover {
 	opacity: 0.5;
