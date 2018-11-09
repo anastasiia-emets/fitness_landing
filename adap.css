@@ -99,19 +99,19 @@
 	.footer {
 		margin-top: 5%;
 		justify-content: center;	
-}
-.tittle {
+  }
+  .tittle {
 	  width: 50%;
    	margin: 0 auto;
   	margin-top: 5%;
-}
-.footer-forms {
+  }
+  .footer-forms {
   	width: 80%;
   	margin-left: 0;
-}
-.button_f {
+  }
+  .button_f {
 	  margin-top:5%;
-}
+  }
 	.wrapp {
 		flex-direction: column;
 	}
@@ -124,7 +124,7 @@
 	.training,
 	.connect,
 	.communit {
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 		width: 40%;
 
 	} 
@@ -206,6 +206,7 @@
 	.connect {
 		width: 80%;
 		text-align: center;
+
 	}
 	.photo1 {
 		margin: 0 auto;
@@ -215,7 +216,7 @@
 		display: block;
 		margin: 0 auto;
 		text-align: center;
-	}
+  }
 	.contact {
 		width: 50%;
 		margin: 0 auto;
@@ -228,6 +229,8 @@
 	}
 	.header1 {
 		text-align: center;
+		margin-bottom: -40px;
+
 	}
 	.footer .form1 {
 		margin-top: 20px;
@@ -268,20 +271,20 @@
 		text-align: center;
 	}
 	.paragraph {
-    padding:0 50px 0 50px;
-	  padding-bottom: 0;
-	  width: 100%;
-	  text-align: center;
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: center;
+                padding:0 50px 0 50px;
+	        padding-bottom: 0;
+	        width: 100%;
+	        text-align: center;
+	        display: flex;
+	        flex-direction: row;
+	        justify-content: center;
 	}
 	.photo1 {
 		margin: 0 auto;
 	}
 
 	.header1 {
-		text-align: center;
+	 	text-align: center;
 
 	}
 	.link {
@@ -338,13 +341,19 @@
 		width: 100%;
 	}
 	.block_footer,
-	 .footer-forms {
+	.footer-forms {
 		flex-wrap: wrap;
 		width: 100%;
 	}
 	.about_us, 
 	.contact {
 		padding: 0;
+	}
+	.resour,.about_us{
+		width: 120%;
+	}
+	.par4{
+		width: 110%;
 	}
 	.about {
 		align-content: center;
@@ -356,6 +365,10 @@
 	.about_yourself {
 		height: auto;
 		width: 90%;
+	}
+	.header3,
+	.summer{
+		line-height: 40px;
 	}
 	.footer-forms {
 		justify-content: center;
@@ -375,5 +388,6 @@
 	.end {
 		height: auto;
 		width: 100%;
+		padding:50px;
 	}
 }
