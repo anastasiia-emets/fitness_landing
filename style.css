@@ -372,10 +372,11 @@ opacity:0.5;
 	font-family: 'proxima-nova', sans-serif;
 	font-size: 15px;
 	height: 49px;
+	font-weight: 400;
 	margin-left: 6px;
 	margin-right: 150px;
-	padding-left: 32px;
-	text-align: left;
+
+	text-align: center;
 	width: 150px;
 
 
