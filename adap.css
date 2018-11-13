@@ -100,25 +100,25 @@
 	.footer {
 		margin-top: 5%;
 		justify-content: center;	
-        }
-        .tittle {
-	        width: 50%;
-   	        margin: 0 auto;
-  	        margin-top: 5%;
-        }
-        .footer-forms {
-  	        width: 80%;
-  	        margin-left: 0;
-        }
-        .button_f {
-	        margin-top:5%;
-        }
-	 .wrapp {
+  }
+  .tittle {
+	  width: 50%;
+   	margin: 0 auto;
+  	margin-top: 5%;
+  }
+  .footer-forms {
+  	width: 80%;
+  	margin-left: 0;
+  }
+  .button_f {
+	  margin-top:5%;
+  }
+	.wrapp {
 		flex-direction: column;
 	}
 
 	.menu_block {
-  	        width:100%;
+  	width:100%;
 		flex-wrap: wrap;
 	}
 	.resources,
@@ -274,6 +274,9 @@
 		width: 100%;
 		margin-bottom: 10%;
 		text-align: center;
+		padding:0;
+	  margin-right: auto;
+	  margin-left: auto;
 	}
 	.paragraph {
     padding:0 50px 0 50px;
@@ -290,7 +293,6 @@
 
 	.header1 {
 		text-align: center;
-
 	}
 	.link {
 	
@@ -354,7 +356,6 @@
 
 	.par4{
 		width: 100%;
-
 	}
 
 
