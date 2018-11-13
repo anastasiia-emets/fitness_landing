@@ -100,25 +100,25 @@
 	.footer {
 		margin-top: 5%;
 		justify-content: center;	
-  }
-  .tittle {
-	  width: 50%;
-   	margin: 0 auto;
-  	margin-top: 5%;
-  }
-  .footer-forms {
-  	width: 80%;
-  	margin-left: 0;
-  }
-  .button_f {
-	  margin-top:5%;
-  }
-	.wrapp {
+        }
+        .tittle {
+	        width: 50%;
+   	        margin: 0 auto;
+  	        margin-top: 5%;
+        }
+        .footer-forms {
+  	        width: 80%;
+  	        margin-left: 0;
+        }
+        .button_f {
+	        margin-top:5%;
+        }
+	 .wrapp {
 		flex-direction: column;
 	}
 
 	.menu_block {
-  	width:100%;
+  	        width:100%;
 		flex-wrap: wrap;
 	}
 	.resources,
@@ -238,6 +238,7 @@
 	}
 	.end {
 		height: auto;
+	
 	}
 	.par4 {
 		width: 80%;
@@ -349,18 +350,16 @@
 		flex-wrap: wrap;
 		width: 100%;
 	}
-	.about_us, 
-	.contact {
-		padding: 0;
-	}
-	.resour,.about_us{
-		width: 120%;
-	}
+
+
 	.par4{
-		width: 110%;
+		width: 100%;
+
 	}
+
+
 	.about {
-		align-content: center;
+		
 		height: auto;
 		width: 90%;
 	}
@@ -370,6 +369,8 @@
 		height: auto;
 		width: 90%;
 		padding-bottom:30px;
+
+
 	}
 	.header3,
 	.summer{
@@ -393,7 +394,8 @@
 	.end {
 		height: auto;
 		width: 100%;
-		padding:50px;
+                margin-right:0;
+   	        padding:50px;
 	}
 
 }
