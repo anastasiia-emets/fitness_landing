@@ -37,15 +37,17 @@
 		margin:0;
 		padding-bottom: 20px;
 		padding-top:20px;
+		margin:0;
 	}
+	
 	.fitness {
 		margin-left: -80%;
 		margin-top: 5%;
 		padding: 0;
 	}
-        .text_on_pict {
-	        display: none;
-        }
+  .text_on_pict {
+	  display: none;
+  }
 	.surf {
 		display: none;
 	}
@@ -90,6 +92,10 @@
 	.end {
 		height: auto;
 	}
+	.form1{
+		margin-top: 0;
+	
+	}
 }
 @media (min-width: 768px) and (max-width: 1024px) {
 	.fitness {
@@ -100,19 +106,18 @@
 	.footer {
 		margin-top: 5%;
 		justify-content: center;	
-        }
-        .tittle {
-	        width: 50%;
-   	        margin: 0 auto;
-  	        margin-top: 5%;
-        }
-        .footer-forms {
-  	        width: 80%;
-  	        margin-left: 0;
-        }
-        .button_f {
-	        margin-top:5%;
-        }
+  }
+  .tittle {
+	  width: 50%;
+   	margin: 0 auto;
+  	margin-top: 5%;
+  }
+  .footer-forms {
+  	width: 80%;
+		margin-left: 0;
+	
+  }
+  
 	.wrapp {
 		flex-direction: column;
 	}
@@ -121,12 +126,9 @@
   	width:100%;
 		flex-wrap: wrap;
 	}
-        .training,
-	.connect,
-	.communit,
-	.resources {
+.training,.connect,.communit,.resources{
 	width: 40%;
-        }
+}
 	.wrapper, 
 	.wrapper1,
 	.section,
@@ -151,9 +153,9 @@
 		flex-wrap: wrap;
 	}
 	
-        .about_improve {
-	        display: none;
-        }
+  .about_improve {
+	 display: none;
+  }
 
 	.surf {
 		display: none;
@@ -204,10 +206,10 @@
 		margin: 0 auto;
 		margin-top: 5%;
   }
-
-	.footer .form1 {
-		margin-top: 20px;
+	.form1{
+	width:200px;
 	}
+
 	.end {
 		height: auto;
 	
@@ -252,17 +254,17 @@
 		margin-bottom: 10%;
 		text-align: center;
 		padding:0;
-	        margin-right: auto;
-	        margin-left: auto;
+	  margin-right: auto;
+	  margin-left: auto;
 	}
 	.paragraph {
-                padding:0 50px 0 50px;
-	        padding-bottom: 0;
-	        width: 100%;
-	        text-align: center;
-	        display: flex;
-	        flex-direction: row;
-	        justify-content: center;
+    padding:0 50px 0 50px;
+	  padding-bottom: 0;
+	  width: 100%;
+	  text-align: center;
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: center;
 	}
 	.photo1 {
 		margin: 0 auto;
@@ -354,26 +356,32 @@
 	.summer{
 		line-height: 40px;
 	}
-	.footer-forms {
-		justify-content: center;
-		padding-bottom: 5%;
-		padding-top: 5%;
+	.footer{
 		margin:0;
-	}
-	.form1,
-	.form {
-		margin-bottom: 5%;
+	}   
+	.footer{
 		margin-top: 5%;
-	}
-	.button_f {
-		display: flex;
 		justify-content: center;
+	}
+
+	form{
+		width: 90%;
+		flex-wrap: wrap;
+	}
+
+	form input{
+		width: 100%;
+		margin-bottom: 2%;
+		font-size: 16px;
+	}
+	.form1{
+		width: 200px;
 	}
 	.end {
 		height: auto;
 		width: 100%;
                 margin-right:0;
-   	        padding:50px;
+        	padding:50px;
 	}
 
 }
