@@ -12,6 +12,8 @@ $ git clone https://github.com/anastasiia-emets/fitness_landing.git
 ![alt text](https://raw.githubusercontent.com/bootstrapthemesco/fitness-html-one-page-bootstrap-template/master/Fitness.jpg)
 
 The layout has an adaptive version 
+
+
 ![alt text](https://github.com/anastasiia-emets/fitness_landing/blob/master/Untitled-1.png "fitness")
 
 ![alt text](https://github.com/anastasiia-emets/fitness_landing/blob/master/Untitled1.png "fitness")
