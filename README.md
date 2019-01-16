@@ -1,7 +1,7 @@
 # fitness_landing
 Fitness is a website template, you can use it for different projects.
 ---
-# DEMO (https://anastasiia-emets.github.io/fitness_landing/index.html)
+# DEMO(https://anastasiia-emets.github.io/fitness_landing/index.html)
 # technology
 - html
 - css
